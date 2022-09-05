@@ -162,17 +162,12 @@ h1 {
   top: -10%;
 }
 .two-circles {
-  position: absolute;
-  top: 0%;
-  left: 6.1%;
+  display:none;
 }
 .twocircles-parrent {
   overflow-x: hidden;
 }
 @media screen and (min-width: 768px) {
-  .two-circles {
-    left: 54%;
-  }
   .background-images {
     width: 696px;
     background-color: rgba(25, 24, 38, 1);
@@ -248,9 +243,6 @@ h1 {
   }
   .circles {
     display: none;
-  }
-  .two-circles {
-    left: 75.5%;
   }
   .maintitle {
     margin-left: 13%;

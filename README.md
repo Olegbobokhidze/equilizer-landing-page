@@ -12,11 +12,11 @@
 
 ## Overview
 
-This E-commerce product page
+Equilizer landing page
 
 ### Links
 
-- Live Site URL: [E-commerce-page](https://olegbobokhidze.github.io/E-commerce-page/)
+- Live Site URL: [Equilizer-landing-page](https://olegbobokhidze.github.io/equilizer-landing-page/)
 
 
 ### Built with
@@ -25,8 +25,6 @@ This E-commerce product page
 - CSS custom properties
 - Flexbox
 - Grid
-- Javascript
-
 
 ### Personal development
 

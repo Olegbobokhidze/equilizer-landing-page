@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&family=IBM+Plex+Sans:wght@400;700&family=Inter:wght@400;500;700&family=Kumbh+Sans:wght@300&family=Outfit:wght@300&family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+header h3 {
+  color: rgba(25, 24, 38, 1);
+}
+p {
+  font-size: 16px;
+  color: rgba(25, 24, 38, 1);
+  font-weight: 400;
+  line-height: 26px;
+}
+h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.text {
+  justify-content: left;
+  align-items: center;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-bottom: 20px;
+}
+.dollar-p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 200px;
+  text-align: left;
+}
+.dollar {
+  margin-right: 10px;
+}
+.white-p {
+  color: rgba(252, 250, 249, 1);
+}
+.header-image {
+  display: none;
+}
+.maintitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 120px;
+}
+h1 {
+  margin-bottom: 30px;
+  color: rgba(25, 24, 38, 1);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.middle-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  background: rgba(250, 116, 83, 1);
+  width: 375px;
+  height: 546px;
+  position: absolute;
+  bottom: -45%;
+}
+.last-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  margin: 20px;
+  margin-top: 400px;
+}
+.icons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.facebook {
+  margin-right: 10px;
+}
+.instagram {
+  margin-right: 10px;
+}
+.ios {
+  background-color: rgba(25, 24, 38, 1);
+  width: 296px;
+  height: 61px;
+  margin-bottom: 20px;
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.ios p {
+  color: white;
+}
+.android {
+  background-color: rgba(252, 250, 249, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 296px;
+  height: 61px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.android p {
+  color: rgba(25, 24, 38, 1);
+}
+.dollar {
+  font-size: 65px;
+  color: white;
+}
+.last-one h3 {
+  color: rgba(25, 24, 38, 1);
+}
+.background-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.balls {
+  width: 375px;
+  height: 600px;
+  background-color: rgba(25, 24, 38, 1);
+}
+.mobile {
+  position: absolute;
+  top: -10%;
+}
+.two-circles {
+  position: absolute;
+  top: 0%;
+  left: 6.1%;
+}
+.twocircles-parrent {
+  overflow-x: hidden;
+}
+@media screen and (min-width: 768px) {
+  .two-circles {
+    left: 54%;
+  }
+  .background-images {
+    width: 696px;
+    background-color: rgba(25, 24, 38, 1);
+    border-radius: 12px;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .mobile {
+    width: 270px;
+    height: 556px;
+    left: 12%;
+  }
+  .middle-text {
+    bottom: -10%;
+    right: 10%;
+    width: 450px;
+    height: 546px;
+    border-radius: 12px;
+  }
+  .header-image {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 65%;
+  }
+  .maintitle {
+    align-items: flex-start;
+    justify-content: left;
+    width: 500px;
+  }
+  .last-one {
+    margin-top: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .last-text {
+    width: 400px;
+  }
+  .facebook {
+    width: 30px;
+    height: 30px;
+  }
+  .instagram {
+    width: 40px;
+    height: 30px;
+  }
+  .twitter {
+    width: 30px;
+    height: 30px;
+  }
+  .icons {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .background-images {
+    width: 1100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .mobile {
+    width: 280px;
+    height: 606px;
+    left: 25%;
+    top: -5%;
+  }
+  .middle-text {
+    width: 446px;
+    height: 625px;
+    left: 55%;
+    top: 40%;
+  }
+  .circles {
+    display: none;
+  }
+  .two-circles {
+    left: 75.5%;
+  }
+  .maintitle {
+    margin-left: 13%;
+    width: 900px;
+  }
+  header {
+    margin-left: 14%;
+  }
+  .last-text {
+    display: flex;
+    width: 650px;
+  }
+  .last-text p {
+    margin-left: 100px;
+  }
+  .last-one {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-size: 88px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
